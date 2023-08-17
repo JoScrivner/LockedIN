@@ -1,0 +1,393 @@
+Using pre-set license
+Built from '2022.1/staging' branch; Version is '2022.1.22f1 (6b6e9fc2adda) revision 7040671'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'en' Physical Memory: 16085 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker11
+-projectPath
+C:/Users/ajhor/Documents/GitHub/LockedIN
+-logFile
+Logs/AssetImportWorker11.log
+-srvPort
+53226
+Successfully changed project path to: C:/Users/ajhor/Documents/GitHub/LockedIN
+C:/Users/ajhor/Documents/GitHub/LockedIN
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 170.19 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.46 ms.
+Initialize engine version: 2022.1.22f1 (6b6e9fc2adda)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.1.22f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/ajhor/Documents/GitHub/LockedIN/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3070 Ti Laptop GPU (ID=0x24a0)
+    Vendor:   NVIDIA
+    VRAM:     8032 MB
+    Driver:   31.0.15.2901
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.1.22f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.1.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.1.22f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56356
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.22f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.22f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003652 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 77.81 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.13 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.530 seconds
+Domain Reload Profiling:
+	ReloadAssembly (530ms)
+		BeginReloadAssembly (51ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (400ms)
+			LoadAssemblies (50ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (91ms)
+				TypeCache.Initialize (91ms)
+					TypeCache.ScanAssembly (90ms)
+				ResolveRequiredComponents (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (20ms)
+			SetupLoadedEditorAssemblies (244ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (42ms)
+				SetLoadedEditorAssemblies (6ms)
+				RefreshPlugins (78ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (83ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005391 seconds.
+Android Extension - Scanning For ADB Devices 644 ms
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\ajhor\Documents\GitHub\LockedIN\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\ajhor\Documents\GitHub\LockedIN\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 64.61 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in C:\Users\ajhor\Documents\GitHub\LockedIN\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:296 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\ajhor\Documents\GitHub\LockedIN\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:281 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <3dd5df5ef4974f29afeb2d3ba227c5da>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <3dd5df5ef4974f29afeb2d3ba227c5da>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <3dd5df5ef4974f29afeb2d3ba227c5da>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <70229d9c56924d7794599e8f1526153f>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Completed reload, in  0.805 seconds
+Domain Reload Profiling:
+	ReloadAssembly (806ms)
+		BeginReloadAssembly (69ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (13ms)
+		EndReloadAssembly (657ms)
+			LoadAssemblies (53ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (178ms)
+				TypeCache.Initialize (175ms)
+					TypeCache.ScanAssembly (172ms)
+				ResolveRequiredComponents (3ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (354ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (4ms)
+				RefreshPlugins (65ms)
+				BeforeProcessingInitializeOnLoad (59ms)
+				ProcessInitializeOnLoadAttributes (193ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 0.96 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Unloading 4430 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 49 unused Assets / (117.0 KB). Loaded Objects now: 4880.
+Memory consumption went from 0.66 GB to 0.66 GB.
+Total: 3.227900 ms (FindLiveObjects: 0.328000 ms CreateObjectMapping: 0.236300 ms MarkObjects: 2.541100 ms  DeleteObjects: 0.121600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 601248.870871 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/AssetEditor/Resources/personal/actionTreeBackground.png
+  artifactKey: Guid(ce5f11cd993284c4f9c54f854bdc8c9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/AssetEditor/Resources/personal/actionTreeBackground.png using Guid(ce5f11cd993284c4f9c54f854bdc8c9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17851a639a40fc3bf0447775d9d6c734') in 0.133699 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Free Furniture Set/Source/Textures/AngledSofaLeatherBrown__Normal.TGA
+  artifactKey: Guid(6bfbc184b141ab0478e8b46edad13ecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Furniture Set/Source/Textures/AngledSofaLeatherBrown__Normal.TGA using Guid(6bfbc184b141ab0478e8b46edad13ecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c965453d8c9060c1af7a7e94ab1a3528') in 0.085954 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Add Binding@2x.png
+  artifactKey: Guid(bb5fa99d6e9434c9ebf101c956021ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Add Binding@2x.png using Guid(bb5fa99d6e9434c9ebf101c956021ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86595a54e0e9b1c694a901515d909612') in 0.022731 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Packages/com.unity.learn.iet-framework/Editor/UI/Images/Tutorials/Icons/AddPrefab.png
+  artifactKey: Guid(f77139ca467af4d0e840eeec0e62f121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.learn.iet-framework/Editor/UI/Images/Tutorials/Icons/AddPrefab.png using Guid(f77139ca467af4d0e840eeec0e62f121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33b64872ee9b35cd19b43593803712f7') in 0.021881 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Axis@3x.png
+  artifactKey: Guid(2e27a82b5cc4e4ef98cbef2d0b324aed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Axis@3x.png using Guid(2e27a82b5cc4e4ef98cbef2d0b324aed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7464a395d9c3ec02665ea468ab7e1eda') in 0.020554 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/AssetEditor/Resources/pro/actionTreeBackground.png
+  artifactKey: Guid(c4b66e31395c54087a2fbc13ae7e0f3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/AssetEditor/Resources/pro/actionTreeBackground.png using Guid(c4b66e31395c54087a2fbc13ae7e0f3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f9ee890711716f69b38ef9dd08c3b27') in 0.014899 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Packages/com.unity.learn.iet-framework/Editor/UI/Images/Icons/Back.png
+  artifactKey: Guid(351201bc69c64cb408fc099cb51d51e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.learn.iet-framework/Editor/UI/Images/Icons/Back.png using Guid(351201bc69c64cb408fc099cb51d51e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '817cbf5a25c6dbb265ab6aff11773cd6') in 0.026319 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/back-light@2x.png
+  artifactKey: Guid(f5c57327df0fa294c8209aa216435167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/back-light@2x.png using Guid(f5c57327df0fa294c8209aa216435167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2837a66ac99ce94c598dda36b41550c9') in 0.015338 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Axis.png
+  artifactKey: Guid(7e853779c8fed4ebf917a0de21c79602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Axis.png using Guid(7e853779c8fed4ebf917a0de21c79602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf60b5837e26a8d7f64d80bb1c8af3d8') in 0.019768 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/back-dark.png
+  artifactKey: Guid(8e3ec2dfd58b79842aa78376678a9a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/back-dark.png using Guid(8e3ec2dfd58b79842aa78376678a9a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd59a6234b88fc5eef70d766fefeb9340') in 0.014164 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Office Room Furniture/Office/Textures/Armchair_1_Specular.png
+  artifactKey: Guid(0cd262e15db74544091ccef2b761f119) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Office Room Furniture/Office/Textures/Armchair_1_Specular.png using Guid(0cd262e15db74544091ccef2b761f119) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4d43bf0db85e6da7e66c1a1e05624aa') in 0.038802 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/AssetEditor/Resources/personal/actionTreeBackgroundWithoutBorder.png
+  artifactKey: Guid(cf632ed80bf1f46c980de6b1b8b903ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/AssetEditor/Resources/personal/actionTreeBackgroundWithoutBorder.png using Guid(cf632ed80bf1f46c980de6b1b8b903ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e46e6a15c808c45bbdadd3f48ed2d60') in 0.020605 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Packages/com.unity.learn.iet-framework/Editor/UI/Images/Tutorials/Icons/AddPrefab@2x.png
+  artifactKey: Guid(cb88a5233232f48b6a3145ff433696a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.learn.iet-framework/Editor/UI/Images/Tutorials/Icons/AddPrefab@2x.png using Guid(cb88a5233232f48b6a3145ff433696a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5ebf727b431cadb931fc59dbdf66ed3') in 0.015876 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Interior Asset/Source/Armchair/Materials/Armchair_DefaultMaterial_MetallicSmoothness.tga
+  artifactKey: Guid(16e72f5ba6ace044d81c72f85d8dcbd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Interior Asset/Source/Armchair/Materials/Armchair_DefaultMaterial_MetallicSmoothness.tga using Guid(16e72f5ba6ace044d81c72f85d8dcbd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '226ff52b596108ab9b7252b328df0cb6') in 0.030941 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/AssetEditor/Resources/pro/actionTreeBackgroundWithoutBorder.png
+  artifactKey: Guid(943deaaee9c9347e0a455aa208526c42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/AssetEditor/Resources/pro/actionTreeBackgroundWithoutBorder.png using Guid(943deaaee9c9347e0a455aa208526c42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cae1f9aa18bcd3907588dde4c289ba4e') in 0.019797 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/added-file-light@2x.png
+  artifactKey: Guid(ec2e3aa6d0ab8ce4eac29b56d65d61d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/added-file-light@2x.png using Guid(ec2e3aa6d0ab8ce4eac29b56d65d61d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0da3cd5d472b69397a8dae9d741a61d2') in 0.019903 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Axis@4x.png
+  artifactKey: Guid(a940917cc397643afb071010cb2143d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Axis@4x.png using Guid(a940917cc397643afb071010cb2143d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c0c3f9253d8b25ae4585743ba9d1d23') in 0.017282 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Interior Asset/Source/Armchair/Materials/Armchair_DefaultMaterial_Normal.tga
+  artifactKey: Guid(1009e4ad75bce56499847fc9b129460c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Interior Asset/Source/Armchair/Materials/Armchair_DefaultMaterial_Normal.tga using Guid(1009e4ad75bce56499847fc9b129460c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a84955fb51cd6bb9aac4a572fc2c5510') in 0.038320 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 182.929583 seconds.
+  path: Assets/HDRPFurniturePack/Succulent_Planter/Textures/Succulent_Planter_Ceramic_AO.png
+  artifactKey: Guid(4853221687227ba48839670274e3d90c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HDRPFurniturePack/Succulent_Planter/Textures/Succulent_Planter_Ceramic_AO.png using Guid(4853221687227ba48839670274e3d90c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cce1ae25d9a2a89b44b7d901070a34f') in 0.030002 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/HDRPFurniturePack/Succulent_Planter/Textures/Succulent_Planter_Ceramic_Plants_DetailMap.png
+  artifactKey: Guid(cb5e07a296c015c40b288bdc3f644322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HDRPFurniturePack/Succulent_Planter/Textures/Succulent_Planter_Ceramic_Plants_DetailMap.png using Guid(cb5e07a296c015c40b288bdc3f644322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33872789eaa2c5629a600ae5cfa866b8') in 0.027088 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.057043 seconds.
+  path: Assets/HDRPFurniturePack/Demo_Scene/Plane.prefab
+  artifactKey: Guid(587b8c7189a01ad4fbe2af6a8481982b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HDRPFurniturePack/Demo_Scene/Plane.prefab using Guid(587b8c7189a01ad4fbe2af6a8481982b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc8fac543ad476ed09488761b9711476') in 0.050042 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/HDRPFurniturePack/Demo_Scene
+  artifactKey: Guid(40dfcbbfc3f91094a82846aa288eb04d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HDRPFurniturePack/Demo_Scene using Guid(40dfcbbfc3f91094a82846aa288eb04d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae5425d05795cd7dc66d8a8b1db4785f') in 0.014229 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.900928 seconds.
+  path: Assets/HDRPFurniturePack/Rug_Woven_Wool_Natural/Textures/Rug_Woven_Wool_Natural_NRM.png
+  artifactKey: Guid(61fa1dd39cdeeeb4babbb92107d42d0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HDRPFurniturePack/Rug_Woven_Wool_Natural/Textures/Rug_Woven_Wool_Natural_NRM.png using Guid(61fa1dd39cdeeeb4babbb92107d42d0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ff5d1d0dcb75108206a1067bd433d77') in 0.037654 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.686630 seconds.
+  path: Assets/HDRPFurniturePack/Rug_Woven_Wool_Natural/Materials/Rug_160x230_Wool_Grey_MaskMap 1.png
+  artifactKey: Guid(aefa62b5ebd4a574da9e885515187735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HDRPFurniturePack/Rug_Woven_Wool_Natural/Materials/Rug_160x230_Wool_Grey_MaskMap 1.png using Guid(aefa62b5ebd4a574da9e885515187735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69c10032049c909765fc65ed91e5a870') in 0.038013 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/HDRPFurniturePack/Rug_Woven_Wool_Natural/Materials/Rug_Woven_Wool_Natural_NRM.mat
+  artifactKey: Guid(74015c01d8f5893499f175039c13c8ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HDRPFurniturePack/Rug_Woven_Wool_Natural/Materials/Rug_Woven_Wool_Natural_NRM.mat using Guid(74015c01d8f5893499f175039c13c8ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c47e071eb59a3a50f8266245d0363a1') in 0.057040 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 42.673891 seconds.
+  path: Assets/HDRPFurniturePack/Plant_Potted_Monstera_Deliciosa/Textures/Basket_Wicker.png
+  artifactKey: Guid(0e711a0c4dd17f14893af8fa320062fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HDRPFurniturePack/Plant_Potted_Monstera_Deliciosa/Textures/Basket_Wicker.png using Guid(0e711a0c4dd17f14893af8fa320062fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7e0fb81d65a6c7a63cd6d5a8c1d403d') in 0.024859 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/HDRPFurniturePack/Plant_Potted_Monstera_Deliciosa/Textures/Basket_Wicker_DetailMap.png
+  artifactKey: Guid(81e35f407d330b14ea5d2bb483abb597) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HDRPFurniturePack/Plant_Potted_Monstera_Deliciosa/Textures/Basket_Wicker_DetailMap.png using Guid(81e35f407d330b14ea5d2bb483abb597) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '232756fdfa15a2eda109e773013344bd') in 0.024877 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/HDRPFurniturePack/Plant_Potted_Monstera_Deliciosa/Textures/Basket_Wicker_MaskMap.png
+  artifactKey: Guid(30a531ac49a71dc4fbb3916b5304db94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HDRPFurniturePack/Plant_Potted_Monstera_Deliciosa/Textures/Basket_Wicker_MaskMap.png using Guid(30a531ac49a71dc4fbb3916b5304db94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94a56873a3ce434fc416b1960b0b1f9f') in 0.032644 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.613096 seconds.
+  path: Assets/HDRPFurniturePack/Plant_Potted_Monstera_Deliciosa/Materials/Plant_Potted_Monstera_Deliciosa_Leaves.mat
+  artifactKey: Guid(e82d28b261152db43b283d8d2ed034f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HDRPFurniturePack/Plant_Potted_Monstera_Deliciosa/Materials/Plant_Potted_Monstera_Deliciosa_Leaves.mat using Guid(e82d28b261152db43b283d8d2ed034f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b89024c1710522e9e87bbb6c97a13f0') in 0.028363 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 40.805601 seconds.
+  path: Assets/HDRPFurniturePack/Sofa_SL03_Allemuir_Stirling/Textures/Sofa_SL03_Fabric_Dark_Grey_MaskMap.png
+  artifactKey: Guid(d0693574ef80398438fff5d443c05f37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HDRPFurniturePack/Sofa_SL03_Allemuir_Stirling/Textures/Sofa_SL03_Fabric_Dark_Grey_MaskMap.png using Guid(d0693574ef80398438fff5d443c05f37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9aa5d27d68a917ca08b307e28fa3de7d') in 0.026335 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/HDRPFurniturePack/Sofa_SL03_Allemuir_Stirling/Textures/Sofa_Stirling_SL03_Allemuir_AO.png
+  artifactKey: Guid(dab8180295fc2d143835006c11eb5b51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HDRPFurniturePack/Sofa_SL03_Allemuir_Stirling/Textures/Sofa_Stirling_SL03_Allemuir_AO.png using Guid(dab8180295fc2d143835006c11eb5b51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fa9190d62ed68ef459e031a53ed5feb') in 0.025704 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.209751 seconds.
+  path: Assets/HDRPFurniturePack/Sofa_SL03_Allemuir_Stirling/Materials/Sofa_SL03_Legs_Wood_natural.mat
+  artifactKey: Guid(7ecbf34f73a3ca444a981976ed0988dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HDRPFurniturePack/Sofa_SL03_Allemuir_Stirling/Materials/Sofa_SL03_Legs_Wood_natural.mat using Guid(7ecbf34f73a3ca444a981976ed0988dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0999731d8ab74ea713d24bb64bfcdc1e') in 0.035502 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
