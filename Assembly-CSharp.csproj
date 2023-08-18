@@ -65,6 +65,8 @@
     <Compile Include="Assets\Scripts\MyMoveObjectController.cs" />
     <Compile Include="Assets\FurnishedCabin\Scripts\MoveObjectController.cs" />
     <Compile Include="Assets\FurnishedCabin\Scripts\Player\PlayerMove.cs" />
+    <Compile Include="Assets\Scripts\screwDriverCollider.cs" />
+    <Compile Include="Assets\Scripts\globeCollisionDetection.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

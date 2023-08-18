@@ -389,9 +389,11 @@
 "Assets/FurnishedCabin/Scripts/Player/PlayerLook.cs"
 "Assets/FurnishedCabin/Scripts/Player/PlayerMove.cs"
 "Assets/Scripts/bowlCollider.cs"
+"Assets/Scripts/globeCollisionDetection.cs"
 "Assets/Scripts/LabyrintCollider.cs"
 "Assets/Scripts/MugCollider.cs"
 "Assets/Scripts/MyMoveObjectController.cs"
+"Assets/Scripts/screwDriverCollider.cs"
 "Assets/XRPlatformControllerSetup.cs"
 -langversion:9.0
 
