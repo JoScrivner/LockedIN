@@ -388,6 +388,7 @@
 "Assets/FurnishedCabin/Scripts/MoveObjectController.cs"
 "Assets/FurnishedCabin/Scripts/Player/PlayerLook.cs"
 "Assets/FurnishedCabin/Scripts/Player/PlayerMove.cs"
+"Assets/playAudio.cs"
 "Assets/Rusty Flashlight/Scripts/FlashlightToggle.cs"
 "Assets/Scripts/BlueCollider.cs"
 "Assets/Scripts/bowlCollider.cs"

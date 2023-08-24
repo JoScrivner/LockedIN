@@ -7,6 +7,16 @@ TagManager:
   - Mug
   - ball
   - Winner
+  - dotGlobe
+  - green
+  - orange
+  - yellow
+  - red
+  - blue
+  - dragon
+  - panelScrew
+  - realGem
+  - picScrew
   layers:
   - Default
   - TransparentFX
@@ -14,7 +24,7 @@ TagManager:
   - TeleportationLayer
   - Water
   - UI
-  - 
+  - Buttons
   - 
   - InteractRaycast
   - 
