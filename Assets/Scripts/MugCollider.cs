@@ -25,6 +25,8 @@ public class MugCollider : MonoBehaviour
 	{		
 		if (other.gameObject.CompareTag("Mug"))		//player has collided with trigger
 		{
+            AudioManagerScript.PlaySound("computerOn");
+
             //GameObject.Find("ButtonCont").SetActive(false);
             blackscreen.SetActive(false);
             cluescreen.SetActive(true);

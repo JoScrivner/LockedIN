@@ -1,17 +1,14 @@
 ﻿using UnityEngine;
 using System.Collections;
 using TMPro;
+using UnityEngine.XR.Interaction.Toolkit;
 
 public class LabyrintCollider : MonoBehaviour 
 {
-    //[SerializeField] private GameObject blackscreen;
-    //[SerializeField] private GameObject cluescreen;
 
 
-    [SerializeField] public GameObject ball;
+    [SerializeField] public GameObject gem;
 
-
-    //private bool playerEntered;
 
 
     void Start()
@@ -23,24 +20,11 @@ public class LabyrintCollider : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
 	{		
-		if (other.gameObject.CompareTag("ball"))		//player has collided with trigger
+		if (other.gameObject.CompareTag("realGem"))		//player has collided with trigger
 		{
-            //GameObject.Find("ButtonCont").SetActive(false);
-            ball.transform.SetParent(null);
-
+            gem.transform.SetParent(null);
 
         }
     }
-/*
-	void OnTriggerExit(Collider other)
-	{
-        if (other.gameObject.CompareTag("Player"))       //player has collided with trigger
-        {
-            anim.SetBool("handEntered", false);
-
-        }
-    }*/
-
-
 
 }

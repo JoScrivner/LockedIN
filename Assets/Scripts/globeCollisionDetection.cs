@@ -29,8 +29,11 @@ public class globeCollisionDetection : MonoBehaviour
 	{		
 		if (other.gameObject.CompareTag("dotGlobe"))		//player has collided with trigger
 		{
+            AudioManagerScript.PlaySound("success");
+
             dot.gameObject.SetActive(true);
             anim.SetBool("closetTriggered", true);
+            AudioManagerScript.PlaySound("closetOpen");
 
 
         }

@@ -15,8 +15,10 @@ public class RedCollider : MonoBehaviour
     }
 
     void OnTriggerEnter(Collider other)
-	{		
-		if (other.gameObject.CompareTag("red"))		//player has collided with trigger
+	{
+        AudioManagerScript.PlaySound("colorCollide");
+
+        if (other.gameObject.CompareTag("red"))		//player has collided with trigger
 		{
             checkColor.red = 1;
 

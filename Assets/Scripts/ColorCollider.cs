@@ -43,8 +43,10 @@ public class ColorCollider : MonoBehaviour
     {
         if(hasRun == false && (blue + orange + red + green + yellow) == 5)
         {
-            hasRun = true;
+            AudioManagerScript.PlaySound("success");
 
+            hasRun = true;
+            AudioManagerScript.PlaySound("wallMove");
             anim.SetBool("wallTriggered", true);
         }
         

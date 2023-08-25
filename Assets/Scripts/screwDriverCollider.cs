@@ -38,6 +38,8 @@ public class screwDriverCollider : MonoBehaviour
 	{		
 		if (other.gameObject.CompareTag("picScrew"))		//player has collided with trigger
 		{
+            AudioManagerScript.PlaySound("screwRemoved");
+
             other.gameObject.SetActive(false);
             //GameObject.Find("ButtonCont").SetActive(false);
             if (pictureScrews == 1)
@@ -53,6 +55,8 @@ public class screwDriverCollider : MonoBehaviour
         }
         else if (other.gameObject.CompareTag("panelScrew"))       //player has collided with trigger
         {
+            AudioManagerScript.PlaySound("screwRemoved");
+
             other.gameObject.SetActive(false);
             //GameObject.Find("ButtonCont").SetActive(false);
             if (panelScrews == 3)

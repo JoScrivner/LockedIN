@@ -33,6 +33,8 @@ public class MyMoveObjectController : MonoBehaviour
 		if (other.gameObject.CompareTag("Player"))		//player has collided with trigger
 		{
             anim.SetBool("handEntered", true);
+            AudioManagerScript.PlaySound("drawerOpen");
+
 
             StartCoroutine(ExecuteAfterTime(1.1f));
         }

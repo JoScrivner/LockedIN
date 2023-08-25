@@ -19,6 +19,8 @@ public class playAudio : MonoBehaviour
 
     public void playVoicemail()
     {
+        AudioManagerScript.PlaySound("phoneClick");
+
         soundPlayer.Play();
     }
 }
