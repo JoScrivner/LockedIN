@@ -407,6 +407,7 @@
 "Assets/Scripts/screwDriverCollider.cs"
 "Assets/Scripts/UImanager.cs"
 "Assets/Scripts/YellowCollider.cs"
+"Assets/VoiceMailTextScript.cs"
 "Assets/XRPlatformControllerSetup.cs"
 -langversion:9.0
 
