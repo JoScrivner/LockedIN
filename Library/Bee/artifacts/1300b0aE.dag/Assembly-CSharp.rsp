@@ -403,7 +403,9 @@
 "Assets/Scripts/RedCollider.cs"
 "Assets/Scripts/Reveal.cs"
 "Assets/Scripts/ScaleCheck.cs"
+"Assets/Scripts/SceneSwitch.cs"
 "Assets/Scripts/screwDriverCollider.cs"
+"Assets/Scripts/UImanager.cs"
 "Assets/Scripts/YellowCollider.cs"
 "Assets/XRPlatformControllerSetup.cs"
 -langversion:9.0

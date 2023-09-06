@@ -60,6 +60,7 @@
     <Compile Include="Assets\FurnishedCabin\Scripts\MoveableObject.cs" />
     <Compile Include="Assets\FurnishedCabin\Scripts\Player\PlayerLook.cs" />
     <Compile Include="Assets\Scripts\bowlCollider.cs" />
+    <Compile Include="Assets\Scripts\ScaleCheck.cs" />
     <Compile Include="Assets\Scripts\Reveal.cs" />
     <Compile Include="Assets\XRPlatformControllerSetup.cs" />
     <Compile Include="Assets\playAudio.cs" />
@@ -77,7 +78,8 @@
     <Compile Include="Assets\Scripts\YellowCollider.cs" />
     <Compile Include="Assets\FurnishedCabin\Scripts\MoveObjectController.cs" />
     <Compile Include="Assets\FurnishedCabin\Scripts\Player\PlayerMove.cs" />
-    <Compile Include="Assets\Scripts\ScaleCheck.cs" />
+    <Compile Include="Assets\Scripts\UImanager.cs" />
+    <Compile Include="Assets\Scripts\SceneSwitch.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
