@@ -57,6 +57,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\SceneSwitch.cs" />
+    <Compile Include="Assets\VoiceMailTextScript.cs" />
     <Compile Include="Assets\Scripts\UImanager.cs" />
     <Compile Include="Assets\Scripts\MugCollider.cs" />
     <Compile Include="Assets\FurnishedCabin\Scripts\MoveableObject.cs" />
@@ -80,7 +81,7 @@
     <Compile Include="Assets\Scripts\YellowCollider.cs" />
     <Compile Include="Assets\FurnishedCabin\Scripts\MoveObjectController.cs" />
     <Compile Include="Assets\FurnishedCabin\Scripts\Player\PlayerMove.cs" />
-    <Compile Include="Assets\VoiceMailTextScript.cs" />
+    <Compile Include="Assets\Scripts\countDownScript.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

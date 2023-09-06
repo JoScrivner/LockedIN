@@ -394,6 +394,7 @@
 "Assets/Scripts/BlueCollider.cs"
 "Assets/Scripts/bowlCollider.cs"
 "Assets/Scripts/ColorCollider.cs"
+"Assets/Scripts/countDownScript.cs"
 "Assets/Scripts/globeCollisionDetection.cs"
 "Assets/Scripts/GreenCollider.cs"
 "Assets/Scripts/LabyrintCollider.cs"
