@@ -9,7 +9,8 @@ public class ScaleCheck : MonoBehaviour
 
     public bool isDone = false;
 
-    [SerializeField] private GameObject winnerscreen;
+
+    //[SerializeField] private GameObject winnerscreen;
 
 
     // Start is called before the first frame update
@@ -25,7 +26,7 @@ public class ScaleCheck : MonoBehaviour
         if (isDone == false && (realGemNo == 3) && (dragonNo == 1))
         {
             AudioManagerScript.PlaySound("success");
-            winnerscreen.SetActive(true);
+            //winnerscreen.SetActive(true);
 
             isDone = true;
 

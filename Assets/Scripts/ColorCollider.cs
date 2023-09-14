@@ -14,6 +14,9 @@ public class ColorCollider : MonoBehaviour
 
     [SerializeField] private GameObject teleportblocker;
 
+    [SerializeField] private GameObject doorLock;
+
+
 
     public bool hasRun = false;
 
@@ -53,6 +56,7 @@ public class ColorCollider : MonoBehaviour
             AudioManagerScript.PlaySound("wallMove");
             anim.SetBool("wallTriggered", true);
             clues.colorClue = true;
+            doorLock.SetActive(true);
 
         }
 

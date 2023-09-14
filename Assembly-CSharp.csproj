@@ -74,6 +74,7 @@
     <Compile Include="Assets\Scripts\RedCollider.cs" />
     <Compile Include="Assets\Scripts\screwDriverCollider.cs" />
     <Compile Include="Assets\Scripts\ColorCollider.cs" />
+    <Compile Include="Assets\Scripts\HelpingClues.cs" />
     <Compile Include="Assets\Scripts\GreenCollider.cs" />
     <Compile Include="Assets\Scripts\OrangeCollider.cs" />
     <Compile Include="Assets\Scripts\BlueCollider.cs" />
@@ -82,7 +83,8 @@
     <Compile Include="Assets\Scripts\YellowCollider.cs" />
     <Compile Include="Assets\FurnishedCabin\Scripts\MoveObjectController.cs" />
     <Compile Include="Assets\FurnishedCabin\Scripts\Player\PlayerMove.cs" />
-    <Compile Include="Assets\Scripts\HelpingClues.cs" />
+    <Compile Include="Assets\Scripts\openDoorEnd.cs" />
+    <Compile Include="Assets\Scripts\startAgain.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
