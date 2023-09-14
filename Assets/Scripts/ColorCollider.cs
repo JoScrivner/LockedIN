@@ -12,9 +12,13 @@ public class ColorCollider : MonoBehaviour
 
     [SerializeField] private Animator anim;
 
+    [SerializeField] private GameObject teleportblocker;
+
+
     public bool hasRun = false;
 
     //private bool playerEntered;
+    public HelpingClues clues;
 
 
     void Start()
@@ -44,12 +48,14 @@ public class ColorCollider : MonoBehaviour
         if(hasRun == false && (blue + orange + red + green + yellow) == 5)
         {
             AudioManagerScript.PlaySound("success");
-
+            teleportblocker.SetActive(false);
             hasRun = true;
             AudioManagerScript.PlaySound("wallMove");
             anim.SetBool("wallTriggered", true);
+            clues.colorClue = true;
+
         }
-        
+
     }
 
 

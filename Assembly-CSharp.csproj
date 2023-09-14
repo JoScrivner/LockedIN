@@ -67,6 +67,7 @@
     <Compile Include="Assets\Scripts\Reveal.cs" />
     <Compile Include="Assets\XRPlatformControllerSetup.cs" />
     <Compile Include="Assets\playAudio.cs" />
+    <Compile Include="Assets\Scripts\countDownScript.cs" />
     <Compile Include="Assets\Rusty Flashlight\Scripts\FlashlightToggle.cs" />
     <Compile Include="Assets\Scripts\LabyrintCollider.cs" />
     <Compile Include="Assets\AudioManagerScript.cs" />
@@ -81,7 +82,7 @@
     <Compile Include="Assets\Scripts\YellowCollider.cs" />
     <Compile Include="Assets\FurnishedCabin\Scripts\MoveObjectController.cs" />
     <Compile Include="Assets\FurnishedCabin\Scripts\Player\PlayerMove.cs" />
-    <Compile Include="Assets\Scripts\countDownScript.cs" />
+    <Compile Include="Assets\Scripts\HelpingClues.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

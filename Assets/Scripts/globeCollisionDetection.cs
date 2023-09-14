@@ -9,6 +9,8 @@ public class globeCollisionDetection : MonoBehaviour
     [SerializeField] private GameObject dot;
     [SerializeField] private Animator anim;
 
+    public HelpingClues clues;
+
 
     //[SerializeField] public GameObject ball;
 
@@ -34,6 +36,7 @@ public class globeCollisionDetection : MonoBehaviour
             dot.gameObject.SetActive(true);
             anim.SetBool("closetTriggered", true);
             AudioManagerScript.PlaySound("closetOpen");
+            clues.globeClue = true;
 
 
         }

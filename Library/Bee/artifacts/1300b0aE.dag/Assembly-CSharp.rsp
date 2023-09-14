@@ -397,6 +397,7 @@
 "Assets/Scripts/countDownScript.cs"
 "Assets/Scripts/globeCollisionDetection.cs"
 "Assets/Scripts/GreenCollider.cs"
+"Assets/Scripts/HelpingClues.cs"
 "Assets/Scripts/LabyrintCollider.cs"
 "Assets/Scripts/MugCollider.cs"
 "Assets/Scripts/MyMoveObjectController.cs"

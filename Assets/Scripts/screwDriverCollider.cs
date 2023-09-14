@@ -18,7 +18,7 @@ public class screwDriverCollider : MonoBehaviour
     private Rigidbody rb1;
     private Rigidbody rb2;
 
-
+    public HelpingClues clues;
 
     //private bool playerEntered;
 
@@ -46,6 +46,8 @@ public class screwDriverCollider : MonoBehaviour
             {
                 rb1.isKinematic = false;
                 //paintingObject.SetActive(true);
+                clues.screwClue = true;
+
             }
             else
             {
