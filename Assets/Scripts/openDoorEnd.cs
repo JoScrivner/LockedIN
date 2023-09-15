@@ -19,6 +19,8 @@ public class openDoorEnd : MonoBehaviour
     [SerializeField] private GameObject youWonText;
     [SerializeField] private GameObject buttonStartAgain;
 
+    [SerializeField] private Animator anim;
+
 
     public ScaleCheck isItDone;
 
@@ -29,7 +31,8 @@ public class openDoorEnd : MonoBehaviour
         //key = GameObject.FindGameObjectWithTag("ExitKey");
 
         //anim = GetComponent<Animator>(); 
-        //anim.SetBool("handEntered", false);
+
+        anim.SetBool("youWon", false);
 
 
     }
@@ -37,6 +40,8 @@ public class openDoorEnd : MonoBehaviour
     {
         if (other.gameObject.CompareTag("ExitKey"))	     //player has collided with trigger
         {
+            AudioManagerScript.PlaySound("keyInLock");
+
             //anim.SetBool("handEntered", true);
             //AudioManagerScript.PlaySound("drawerOpen");
             showWin();
@@ -55,6 +60,10 @@ public class openDoorEnd : MonoBehaviour
             youWonText.SetActive(true);
             buttonStartAgain.SetActive(true);
             winScreen.SetActive(true);
+            anim.SetBool("youWon", true);
+
+            AudioManagerScript.PlaySound("youWon");
+
         }
         else
         {

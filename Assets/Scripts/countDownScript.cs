@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class countDownScript : MonoBehaviour
 {
@@ -28,9 +29,11 @@ public class countDownScript : MonoBehaviour
             }
             else
             {
-                Debug.Log("Time is UP!");
+                //Debug.Log("Time is UP!");
                 TimeLeft = 0;
                 TimerOn = false;
+                SceneManager.LoadScene(2);
+
             }
         }
     }
