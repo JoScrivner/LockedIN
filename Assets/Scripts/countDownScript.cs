@@ -9,6 +9,10 @@ public class countDownScript : MonoBehaviour
     public float TimeLeft;
     public bool TimerOn = false;
 
+    public float finalTime;
+    public openDoorEnd isTheGameWon;
+
+
     public TextMeshProUGUI TimerTxt;
     
     // Start is called before the first frame update
@@ -36,6 +40,11 @@ public class countDownScript : MonoBehaviour
 
             }
         }
+        if(isTheGameWon.gameWon)
+        {
+            finalTime = TimeLeft;
+            TimerOn = false;
+        }   
     }
 
     void updateTime(float currentTime)

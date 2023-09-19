@@ -1,15 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class openDoorEnd : MonoBehaviour
 {
-    //[SerializeField] private Animator anim;
-    //private GameObject key;
-
-    //[SerializeField] public Rigidbody key;
-
-    //private bool playerEntered;
 
     [SerializeField] private GameObject winScreen;
 
@@ -21,8 +16,14 @@ public class openDoorEnd : MonoBehaviour
 
     [SerializeField] private Animator anim;
 
+    public bool gameWon;
+    public countDownScript countdownclock;
+
+    public TextMeshProUGUI TimerTxt;
+
 
     public ScaleCheck isItDone;
+    public TextMeshProUGUI textResult;
 
 
 
@@ -34,6 +35,8 @@ public class openDoorEnd : MonoBehaviour
 
         anim.SetBool("youWon", false);
 
+        gameWon = false;
+
 
     }
     void OnTriggerEnter(Collider other)
@@ -42,11 +45,9 @@ public class openDoorEnd : MonoBehaviour
         {
             AudioManagerScript.PlaySound("keyInLock");
 
-            //anim.SetBool("handEntered", true);
-            //AudioManagerScript.PlaySound("drawerOpen");
+
             showWin();
 
-            //StartCoroutine(ExecuteAfterTime(1.1f));
         }
     }
 
@@ -55,6 +56,17 @@ public class openDoorEnd : MonoBehaviour
     {
         if(isItDone.isDone)
         {
+            //clock.SetActive(false);
+            gameWon = true;
+
+            /*float timeLeft = 1800 - countdownclock.finalTime;
+            float minutes = Mathf.FloorToInt(timeLeft / 60);
+            float seconds = Mathf.FloorToInt(timeLeft % 60);*/
+
+            //TimerTxt.text = string.Format("{0:00}:{1:00}", minutes, seconds);
+
+            textResult.text = "Congratulations, you did it!\n \nYou got out with " + TimerTxt.text + " left.\n \n Do you want to try again?";
+
             notYetText.SetActive(false);
             buttonContGame.SetActive(false);
             youWonText.SetActive(true);

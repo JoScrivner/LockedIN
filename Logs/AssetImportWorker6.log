@@ -1,0 +1,424 @@
+Using pre-set license
+Built from '2022.1/staging' branch; Version is '2022.1.22f1 (6b6e9fc2adda) revision 7040671'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'en' Physical Memory: 16085 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker6
+-projectPath
+C:/Users/ajhor/Documents/GitHub/LockedIN
+-logFile
+Logs/AssetImportWorker6.log
+-srvPort
+52506
+Successfully changed project path to: C:/Users/ajhor/Documents/GitHub/LockedIN
+C:/Users/ajhor/Documents/GitHub/LockedIN
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 369.52 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 5.48 ms.
+Initialize engine version: 2022.1.22f1 (6b6e9fc2adda)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.1.22f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/ajhor/Documents/GitHub/LockedIN/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3070 Ti Laptop GPU (ID=0x24a0)
+    Vendor:   NVIDIA
+    VRAM:     8032 MB
+    Driver:   31.0.15.2901
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.1.22f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.1.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.1.22f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56240
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.22f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.22f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004193 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 69.11 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.19 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.323 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1323ms)
+		BeginReloadAssembly (50ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (0ms)
+		EndReloadAssembly (980ms)
+			LoadAssemblies (49ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (711ms)
+				TypeCache.Initialize (711ms)
+					TypeCache.ScanAssembly (710ms)
+				ResolveRequiredComponents (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (17ms)
+			SetupLoadedEditorAssemblies (218ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (37ms)
+				SetLoadedEditorAssemblies (5ms)
+				RefreshPlugins (69ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (64ms)
+				ProcessInitializeOnLoadMethodAttributes (42ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004657 seconds.
+Android Extension - Scanning For ADB Devices 662 ms
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\ajhor\Documents\GitHub\LockedIN\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\ajhor\Documents\GitHub\LockedIN\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 78.83 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in C:\Users\ajhor\Documents\GitHub\LockedIN\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:296 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\ajhor\Documents\GitHub\LockedIN\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:281 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <3dd5df5ef4974f29afeb2d3ba227c5da>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <3dd5df5ef4974f29afeb2d3ba227c5da>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <3dd5df5ef4974f29afeb2d3ba227c5da>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <70229d9c56924d7794599e8f1526153f>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Completed reload, in  1.457 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1458ms)
+		BeginReloadAssembly (74ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (1310ms)
+			LoadAssemblies (65ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (188ms)
+				TypeCache.Initialize (185ms)
+					TypeCache.ScanAssembly (181ms)
+				ResolveRequiredComponents (3ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (974ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (4ms)
+				RefreshPlugins (79ms)
+				BeforeProcessingInitializeOnLoad (61ms)
+				ProcessInitializeOnLoadAttributes (790ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.78 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 4451 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 48 unused Assets / (60.2 KB). Loaded Objects now: 4906.
+Memory consumption went from 0.67 GB to 0.67 GB.
+Total: 3.241400 ms (FindLiveObjects: 0.244500 ms CreateObjectMapping: 0.122700 ms MarkObjects: 2.738100 ms  DeleteObjects: 0.134900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 94576.799667 seconds.
+  path: Assets/LowPolyOfficeProps_LITE/Meshes/CellPhone.fbx
+  artifactKey: Guid(cf2e994ddc969684984c2bbc44f99997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyOfficeProps_LITE/Meshes/CellPhone.fbx using Guid(cf2e994ddc969684984c2bbc44f99997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62bf2266d76f7a015c802e949a8f9238') in 0.152438 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.458269 seconds.
+  path: Assets/LowPolyOfficeProps_LITE/Meshes/Chair_Conference_Violet.fbx
+  artifactKey: Guid(cc2620a5f090c42479fe977fa2dbb164) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyOfficeProps_LITE/Meshes/Chair_Conference_Violet.fbx using Guid(cc2620a5f090c42479fe977fa2dbb164) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e28b810d38aa8502dfbc643013ad481') in 0.023283 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/LowPolyOfficeProps_LITE/Meshes/Chair_DeskChair_Purple.fbx
+  artifactKey: Guid(2550a28f8c08b40448be9fa292d18477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyOfficeProps_LITE/Meshes/Chair_DeskChair_Purple.fbx using Guid(2550a28f8c08b40448be9fa292d18477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '370443e52d6707887a976118607374ac') in 0.020015 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.891392 seconds.
+  path: Assets/LowPolyOfficeProps_LITE/Meshes/Chair_Office.fbx
+  artifactKey: Guid(b5b1a7c1d994db446afb4b4f42882151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyOfficeProps_LITE/Meshes/Chair_Office.fbx using Guid(b5b1a7c1d994db446afb4b4f42882151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39e321771a15f5b9bf3221b986534084') in 0.027106 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/LowPolyOfficeProps_LITE/Meshes/Chair_Office_Teal.fbx
+  artifactKey: Guid(68deee2144c5aca4d951edfba260cf9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyOfficeProps_LITE/Meshes/Chair_Office_Teal.fbx using Guid(68deee2144c5aca4d951edfba260cf9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1231f5c51ce269bbf52930e22027eec') in 0.023113 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.485240 seconds.
+  path: Assets/Office Room Furniture/Office/Models/FloorPlant_1.fbx
+  artifactKey: Guid(ecb6fbf1148af344fb5bdf5751940c76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Office Room Furniture/Office/Models/FloorPlant_1.fbx using Guid(ecb6fbf1148af344fb5bdf5751940c76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c04b88c40e29895bd2d372164fd72869') in 0.130488 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.839656 seconds.
+  path: Assets/Office Room Furniture/Office/Models/MouseKeyboard_1.fbx
+  artifactKey: Guid(508eae10495c0a2408a29ae023b46a7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Office Room Furniture/Office/Models/MouseKeyboard_1.fbx using Guid(508eae10495c0a2408a29ae023b46a7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82d5d60edb778459cf144e4895b688be') in 0.165054 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.054378 seconds.
+  path: Assets/Office Room Furniture/Office/Models/Objects_1.fbx
+  artifactKey: Guid(78fb8fd1f91f5a24c951a270a707c07d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Office Room Furniture/Office/Models/Objects_1.fbx using Guid(78fb8fd1f91f5a24c951a270a707c07d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71b9590edb1960a4ac59f199a51875c8') in 0.086954 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.360846 seconds.
+  path: Assets/Free Furniture Set/Source/Mesh/CoffeeTableWoodBrown.fbx
+  artifactKey: Guid(925bd6a45ea9b534dab155e9cf88fe4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Furniture Set/Source/Mesh/CoffeeTableWoodBrown.fbx using Guid(925bd6a45ea9b534dab155e9cf88fe4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc8fb8895439b0031cea2ce438f8dcc0') in 0.221969 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.644964 seconds.
+  path: Assets/Globe/DemoScene/Mesh/Background.obj
+  artifactKey: Guid(33901f1abecf01446a03f0a7ae906a52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Globe/DemoScene/Mesh/Background.obj using Guid(33901f1abecf01446a03f0a7ae906a52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed256ba5684d46be7303ea3375fe6f7a') in 0.026079 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.939795 seconds.
+  path: Assets/LowPolyOfficeProps_LITE/Meshes/FilingCabinet_DrawerKeyLock.fbx
+  artifactKey: Guid(085603c2da3fd094597acc6d8da55c61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyOfficeProps_LITE/Meshes/FilingCabinet_DrawerKeyLock.fbx using Guid(085603c2da3fd094597acc6d8da55c61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'deae38afb86b55f015c12244a7f5c0fb') in 0.018015 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.152091 seconds.
+  path: Assets/Jewel Pack/Models/gem_01.fbx
+  artifactKey: Guid(9cb17b9b14f7744f198fc9b36e9214ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jewel Pack/Models/gem_01.fbx using Guid(9cb17b9b14f7744f198fc9b36e9214ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0faa37e5faa37e3ca05a74c2d6273b7') in 0.019393 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.514766 seconds.
+  path: Assets/Jewel Pack/Models/gem_05.fbx
+  artifactKey: Guid(e4d834433e5484c9d905fcd6b6a273e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jewel Pack/Models/gem_05.fbx using Guid(e4d834433e5484c9d905fcd6b6a273e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93f4d8f816535c634116b7146d920257') in 0.020416 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Jewel Pack/Models/gem_11.fbx
+  artifactKey: Guid(e2d766b2254344132b0a278bca3800e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jewel Pack/Models/gem_11.fbx using Guid(e2d766b2254344132b0a278bca3800e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '500f5ddd2758667790af9713657f1855') in 0.019508 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.018258 seconds.
+  path: Assets/Jewel Pack/Models/gem_14.fbx
+  artifactKey: Guid(4ee4ee93a9a684deca32b2f27ff174b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jewel Pack/Models/gem_14.fbx using Guid(4ee4ee93a9a684deca32b2f27ff174b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '861c56bb4b7dfc32e6ea09d7c6f7ee5f') in 0.019624 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Globe/Globe/Mesh/Globe.fbx
+  artifactKey: Guid(4b55f9e77a7e2b64c90fa45a0543815a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Globe/Globe/Mesh/Globe.fbx using Guid(4b55f9e77a7e2b64c90fa45a0543815a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdccb63ea68f384ecea86dbc9fe8fde1') in 0.021952 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.578503 seconds.
+  path: Assets/LowPolyOfficeProps_LITE/Meshes/Laptop_Closed.fbx
+  artifactKey: Guid(c9a6799bba6d13d429bb5834ff47aeb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyOfficeProps_LITE/Meshes/Laptop_Closed.fbx using Guid(c9a6799bba6d13d429bb5834ff47aeb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '247bb2ec5619ffa4d1ed6e0a716c9e73') in 0.019153 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Workplace Tools/Mesh/Pliers.fbx
+  artifactKey: Guid(32b7353aaf14ee04fb669164d83b6817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Workplace Tools/Mesh/Pliers.fbx using Guid(32b7353aaf14ee04fb669164d83b6817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c829ccea691e52a5c6fa8ea5dce3de0') in 0.075987 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.812053 seconds.
+  path: Assets/LowPolyOfficeProps_LITE/Meshes/PenClosed.fbx
+  artifactKey: Guid(561bc2c9b2ca3584d91c6cdac16b7ad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyOfficeProps_LITE/Meshes/PenClosed.fbx using Guid(561bc2c9b2ca3584d91c6cdac16b7ad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4dd4424ca9195eda07e95f1abdf33c7') in 0.021919 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.604259 seconds.
+  path: Assets/Office Room Furniture/Office/Models/DinnerRoom.fbx
+  artifactKey: Guid(18a45c661ef2bc84f816fd49e9f50bbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Office Room Furniture/Office/Models/DinnerRoom.fbx using Guid(18a45c661ef2bc84f816fd49e9f50bbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34b842b679b83a7516069ae0dcfec387') in 0.035716 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.076619 seconds.
+  path: Assets/LowPolyOfficeProps_LITE/Meshes/PlantTypeA.fbx
+  artifactKey: Guid(6c75552f90ffa6c4a96c34c57870e878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyOfficeProps_LITE/Meshes/PlantTypeA.fbx using Guid(6c75552f90ffa6c4a96c34c57870e878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e65daab82263b2e807b63f7a1054e7d') in 0.045486 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.075194 seconds.
+  path: Assets/Workplace Tools/Mesh/Screw_Cross.fbx
+  artifactKey: Guid(4ff6a85a9aba2f44eb43860d96164dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Workplace Tools/Mesh/Screw_Cross.fbx using Guid(4ff6a85a9aba2f44eb43860d96164dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5101fac537e3e8e8123d25627b7e065') in 0.024140 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Workplace Tools/Mesh/Screwdriver_Single.fbx
+  artifactKey: Guid(c945d6d9e92c001478fc00b380d110bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Workplace Tools/Mesh/Screwdriver_Single.fbx using Guid(c945d6d9e92c001478fc00b380d110bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd4bef1c4b1fe4f97b7d06ddc8b6f2be') in 0.047911 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.304652 seconds.
+  path: Assets/Free Furniture Set/Source/Mesh/BlackPot.fbx
+  artifactKey: Guid(abc00000000002844228395445934594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Furniture Set/Source/Mesh/BlackPot.fbx using Guid(abc00000000002844228395445934594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f7a9f82cea5783642fb841000d7abc0') in 0.042332 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.562361 seconds.
+  path: Assets/Free Furniture Set/Source/Mesh/FotelLeatherBlackSmall_2S.FBX
+  artifactKey: Guid(f847530eaf2f443459cb91cf49a353c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Furniture Set/Source/Mesh/FotelLeatherBlackSmall_2S.FBX using Guid(f847530eaf2f443459cb91cf49a353c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77f452090a68bb2b5744fd99d397fa45') in 0.068857 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.223708 seconds.
+  path: Assets/Free Furniture Set/Source/Mesh/Shelf13.FBX
+  artifactKey: Guid(c175e625f2dce7b41b84d3fb4dcc05eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Furniture Set/Source/Mesh/Shelf13.FBX using Guid(c175e625f2dce7b41b84d3fb4dcc05eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cee21c63754d42a6604efe2af79157b6') in 0.080293 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.177928 seconds.
+  path: Assets/Free Furniture Set/Source/Mesh/StandingLampS.fbx
+  artifactKey: Guid(abc00000000006423666167531555127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Furniture Set/Source/Mesh/StandingLampS.fbx using Guid(abc00000000006423666167531555127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0a88b82eb8b7d7d4c454b6adb503c74') in 0.055245 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.301138 seconds.
+  path: Assets/FurnishedCabin/Meshes/Collision/SofaSmall_COL.fbx
+  artifactKey: Guid(e760d65fe79664bb3b74548e3f010844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FurnishedCabin/Meshes/Collision/SofaSmall_COL.fbx using Guid(e760d65fe79664bb3b74548e3f010844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbdabbeecaca4f879081a6d46ac9d791') in 0.023487 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.145377 seconds.
+  path: Assets/Interior Asset/Source/Books/2/Book.fbx
+  artifactKey: Guid(ba19a4a4826dbb047b79f5fe26061e1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Interior Asset/Source/Books/2/Book.fbx using Guid(ba19a4a4826dbb047b79f5fe26061e1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ef4ec40317e9b697c2dcdea8aad5fcd') in 0.177339 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Interior Asset/Source/Pictures/1/picture.fbx
+  artifactKey: Guid(00214ec25c3584247acda644e5c444c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Interior Asset/Source/Pictures/1/picture.fbx using Guid(00214ec25c3584247acda644e5c444c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96d459d3b4551995113baffe2fdfb195') in 0.077609 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000649 seconds.
+  path: Assets/Interior Asset/Source/InteriorPlant/Grass/Grass.fbx
+  artifactKey: Guid(a9dac368b7013164c80b90e65f3ba55a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Interior Asset/Source/InteriorPlant/Grass/Grass.fbx using Guid(a9dac368b7013164c80b90e65f3ba55a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader error in 'Ciconia Studio/Double Sided/Transparent/Diffuse Bump Cutout': invalid subscript 'boxMax' at line 150 (on d3d11)
+
+Compiling Subshader: 0, Pass: FORWARD, Vertex program with DIRECTIONAL DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF LIGHTMAP_OFF LIGHTPROBE_SH
+Platform defines: SHADER_API_MOBILE UNITY_ENABLE_REFLECTION_BUFFERS UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_NO_CUBEMAP_ARRAY UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_NO_SCREENSPACE_SHADOWS UNITY_PASS_FORWARDBASE UNITY_PBS_USE_BRDF2
+Disabled keywords: DIRLIGHTMAP_COMBINED DIRLIGHTMAP_SEPARATE DYNAMICLIGHTMAP_ON FOG_EXP FOG_EXP2 FOG_LINEAR LIGHTMAP_ON LIGHTMAP_SHADOW_MIXING SHADER_API_GLES30 SHADOWS_SCREEN SHADOWS_SHADOWMASK UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHTMAP_RGBM_ENCODING UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_FULL_STANDARD_SHADER UNITY_PBS_USE_BRDF1 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_VIRTUAL_TEXTURING VERTEXLIGHT_ON
+Shader warning in 'Ciconia Studio/Double Sided/Transparent/Diffuse Bump Cutout': 'UNITY_PASS_FORWARDADD': macro redefinition. Previous definition found at :1. at line 197
+
+Compiling Subshader: 0, Pass: FORWARD_DELTA, Vertex program with DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF LIGHTMAP_OFF POINT
+Platform defines: SHADER_API_MOBILE UNITY_ENABLE_REFLECTION_BUFFERS UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_NO_CUBEMAP_ARRAY UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_NO_SCREENSPACE_SHADOWS UNITY_PASS_FORWARDADD UNITY_PBS_USE_BRDF2
+Disabled keywords: DIRECTIONAL DIRECTIONAL_COOKIE DIRLIGHTMAP_COMBINED DIRLIGHTMAP_SEPARATE DYNAMICLIGHTMAP_ON FOG_EXP FOG_EXP2 FOG_LINEAR LIGHTMAP_ON LIGHTMAP_SHADOW_MIXING POINT_COOKIE SHADER_API_GLES30 SHADOWS_CUBE SHADOWS_DEPTH SHADOWS_SCREEN SHADOWS_SHADOWMASK SHADOWS_SOFT SPOT UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHTMAP_RGBM_ENCODING UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_FULL_STANDARD_SHADER UNITY_PBS_USE_BRDF1 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_VIRTUAL_TEXTURING
+Shader warning in 'Ciconia Studio/Double Sided/Transparent/Diffuse Bump Cutout': 'UNITY_PASS_SHADOWCASTER': macro redefinition. Previous definition found at :1. at line 305
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF LIGHTMAP_OFF SHADOWS_DEPTH
+Platform defines: SHADER_API_MOBILE UNITY_ENABLE_REFLECTION_BUFFERS UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_NO_CUBEMAP_ARRAY UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_NO_SCREENSPACE_SHADOWS UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF2
+Disabled keywords: DIRLIGHTMAP_COMBINED DIRLIGHTMAP_SEPARATE DYNAMICLIGHTMAP_ON FOG_EXP FOG_EXP2 FOG_LINEAR LIGHTMAP_ON SHADER_API_GLES30 SHADOWS_CUBE UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHTMAP_RGBM_ENCODING UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_FULL_STANDARD_SHADER UNITY_PBS_USE_BRDF1 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_VIRTUAL_TEXTURING
+Shader error in 'Ciconia Studio/Double Sided/Transparent/Diffuse Bump Cutout': invalid subscript 'boxMax' at line 150 (on d3d11)
+
+Compiling Subshader: 0, Pass: FORWARD, Vertex program with DIRECTIONAL DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF LIGHTMAP_OFF LIGHTPROBE_SH
+Platform defines: SHADER_API_MOBILE UNITY_ENABLE_REFLECTION_BUFFERS UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_NO_CUBEMAP_ARRAY UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_NO_SCREENSPACE_SHADOWS UNITY_PASS_FORWARDBASE UNITY_PBS_USE_BRDF2
+Disabled keywords: DIRLIGHTMAP_COMBINED DIRLIGHTMAP_SEPARATE DYNAMICLIGHTMAP_ON FOG_EXP FOG_EXP2 FOG_LINEAR LIGHTMAP_ON LIGHTMAP_SHADOW_MIXING SHADER_API_GLES30 SHADOWS_SCREEN SHADOWS_SHADOWMASK UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHTMAP_RGBM_ENCODING UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_FULL_STANDARD_SHADER UNITY_PBS_USE_BRDF1 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_VIRTUAL_TEXTURING VERTEXLIGHT_ON
+Shader warning in 'Ciconia Studio/Double Sided/Transparent/Diffuse Bump Cutout': 'UNITY_PASS_FORWARDADD': macro redefinition. Previous definition found at :1. at line 197
+
+Compiling Subshader: 0, Pass: FORWARD_DELTA, Vertex program with DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF LIGHTMAP_OFF POINT
+Platform defines: SHADER_API_MOBILE UNITY_ENABLE_REFLECTION_BUFFERS UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_NO_CUBEMAP_ARRAY UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_NO_SCREENSPACE_SHADOWS UNITY_PASS_FORWARDADD UNITY_PBS_USE_BRDF2
+Disabled keywords: DIRECTIONAL DIRECTIONAL_COOKIE DIRLIGHTMAP_COMBINED DIRLIGHTMAP_SEPARATE DYNAMICLIGHTMAP_ON FOG_EXP FOG_EXP2 FOG_LINEAR LIGHTMAP_ON LIGHTMAP_SHADOW_MIXING POINT_COOKIE SHADER_API_GLES30 SHADOWS_CUBE SHADOWS_DEPTH SHADOWS_SCREEN SHADOWS_SHADOWMASK SHADOWS_SOFT SPOT UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHTMAP_RGBM_ENCODING UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_FULL_STANDARD_SHADER UNITY_PBS_USE_BRDF1 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_VIRTUAL_TEXTURING
+Shader warning in 'Ciconia Studio/Double Sided/Transparent/Diffuse Bump Cutout': 'UNITY_PASS_SHADOWCASTER': macro redefinition. Previous definition found at :1. at line 305
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF LIGHTMAP_OFF SHADOWS_DEPTH
+Platform defines: SHADER_API_MOBILE UNITY_ENABLE_REFLECTION_BUFFERS UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_NO_CUBEMAP_ARRAY UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_NO_SCREENSPACE_SHADOWS UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF2
+Disabled keywords: DIRLIGHTMAP_COMBINED DIRLIGHTMAP_SEPARATE DYNAMICLIGHTMAP_ON FOG_EXP FOG_EXP2 FOG_LINEAR LIGHTMAP_ON SHADER_API_GLES30 SHADOWS_CUBE UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHTMAP_RGBM_ENCODING UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_FULL_STANDARD_SHADER UNITY_PBS_USE_BRDF1 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_VIRTUAL_TEXTURING
+ -> (artifact id: '92834f9668984f232a31cf62e22f9e44') in 0.124111 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Interior Asset/Source/Shelf/Shelf.fbx
+  artifactKey: Guid(688c7572e7f535a4182d169d021b1e03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Interior Asset/Source/Shelf/Shelf.fbx using Guid(688c7572e7f535a4182d169d021b1e03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1be0a2bd3054045920537cf4f98c791e') in 0.112366 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

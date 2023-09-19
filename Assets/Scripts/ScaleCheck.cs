@@ -9,6 +9,8 @@ public class ScaleCheck : MonoBehaviour
 
     public bool isDone = false;
 
+    public GameObject[] realGems;
+
 
     //[SerializeField] private GameObject winnerscreen;
 
@@ -29,6 +31,15 @@ public class ScaleCheck : MonoBehaviour
             //winnerscreen.SetActive(true);
 
             isDone = true;
+
+
+            realGems = GameObject.FindGameObjectsWithTag("realGem");
+
+            foreach (GameObject gem in realGems)
+            {
+                gem.SetActive(false);
+            }
+
 
         }
     }

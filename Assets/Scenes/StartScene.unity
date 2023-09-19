@@ -1659,7 +1659,7 @@ PrefabInstance:
     - target: {fileID: 7532223054899601257, guid: 3141e4a3a9ceeab47b5211b5898b71c4,
         type: 3}
       propertyPath: m_text
-      value: 'You have xx minutes to find the 3 gemstones and leave Larry Dixon''s
+      value: 'You have 30 minutes to find the 3 gemstones and leave Larry Dixon''s
         office before he returns.
 
         But he didn''t make it easy for you: he
@@ -2228,6 +2228,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7759429362793405219, guid: 3141e4a3a9ceeab47b5211b5898b71c4,
+        type: 3}
+      propertyPath: m_Text
+      value: Start the Game
+      objectReference: {fileID: 0}
+    - target: {fileID: 7759429362793405219, guid: 3141e4a3a9ceeab47b5211b5898b71c4,
+        type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 23
       objectReference: {fileID: 0}
     - target: {fileID: 7759429362793405229, guid: 3141e4a3a9ceeab47b5211b5898b71c4,
         type: 3}

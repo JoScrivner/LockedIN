@@ -302,6 +302,12 @@ PrefabInstance:
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: cca0faf8c0b2df24d8a7c55bf6a54e0f, type: 3}
+--- !u!1 &25920412 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1215126968702442, guid: 4f235d410f2807b42800587d271f09e5,
+    type: 3}
+  m_PrefabInstance: {fileID: 763237690}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &26366784
 GameObject:
   m_ObjectHideFlags: 0
@@ -987,6 +993,19 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 763237690}
   m_PrefabAsset: {fileID: 0}
+--- !u!65 &77347388
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 25920412}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0850191, y: 0.21590199, z: 2.1276271}
+  m_Center: {x: 0.4978046, y: -0.46806455, z: 0.3178333}
 --- !u!1 &85056723 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 147966, guid: a393f3badc444114daead46c384552af,
@@ -4779,6 +4798,10 @@ PrefabInstance:
       value: gem_2
       objectReference: {fileID: 0}
     - target: {fileID: 1926542691732368, guid: 06bfdc4499737419aae4ec7eaece6e56, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1926542691732368, guid: 06bfdc4499737419aae4ec7eaece6e56, type: 3}
       propertyPath: m_TagString
       value: Untagged
       objectReference: {fileID: 0}
@@ -7891,6 +7914,7 @@ MonoBehaviour:
   dragonNo: 0
   realGemNo: 0
   isDone: 0
+  realGems: []
 --- !u!1 &598754057
 GameObject:
   m_ObjectHideFlags: 0
@@ -8858,7 +8882,11 @@ MonoBehaviour:
   youWonText: {fileID: 1872316084}
   buttonStartAgain: {fileID: 377038208}
   anim: {fileID: 1683441263}
+  gameWon: 0
+  countdownclock: {fileID: 1005099527}
+  TimerTxt: {fileID: 33621894}
   isItDone: {fileID: 590911256}
+  textResult: {fileID: 1872316087}
 --- !u!1001 &761395950
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9062,15 +9090,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4954684548412172, guid: 4f235d410f2807b42800587d271f09e5, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 5.179012
+      value: 5.17
       objectReference: {fileID: 0}
     - target: {fileID: 4954684548412172, guid: 4f235d410f2807b42800587d271f09e5, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 11.2
+      value: 11.59
       objectReference: {fileID: 0}
     - target: {fileID: 4954684548412172, guid: 4f235d410f2807b42800587d271f09e5, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -62.87947
+      value: -62.89
       objectReference: {fileID: 0}
     - target: {fileID: 4954684548412172, guid: 4f235d410f2807b42800587d271f09e5, type: 3}
       propertyPath: m_LocalRotation.w
@@ -11525,8 +11553,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8ccbab06a49f2a4d98ba23a1c43ff00, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TimeLeft: 600
+  TimeLeft: 1800
   TimerOn: 0
+  finalTime: 0
+  isTheGameWon: {fileID: 745569828}
   TimerTxt: {fileID: 33621894}
 --- !u!65 &1005099528
 BoxCollider:
@@ -14128,6 +14158,10 @@ PrefabInstance:
     - target: {fileID: 1926542691732368, guid: 06bfdc4499737419aae4ec7eaece6e56, type: 3}
       propertyPath: m_Name
       value: gem_16
+      objectReference: {fileID: 0}
+    - target: {fileID: 1926542691732368, guid: 06bfdc4499737419aae4ec7eaece6e56, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4671515342135832, guid: 06bfdc4499737419aae4ec7eaece6e56, type: 3}
       propertyPath: m_RootOrder
